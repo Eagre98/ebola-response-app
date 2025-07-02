@@ -1,0 +1,55 @@
+name: ebola_response_app
+description: An app for WHO to manage Ebola outbreak response in Congo.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # === CORRECTED FIREBASE VERSIONS ===
+  # Using a known, stable combination of packages to resolve runtime conflicts.
+  firebase_core: 2.27.0
+  firebase_auth: 4.17.8
+  cloud_firestore: 4.15.8
+  firebase_storage: 11.6.9
+  google_sign_in: 6.2.1
+  # ===================================
+
+  # State Management
+  provider: ^6.1.1
+
+  # UI and Functionality
+  google_maps_flutter: ^2.5.0
+  image_picker: ^1.0.7
+  fl_chart: ^0.66.2
+  intl: ^0.18.1 # Using a version compatible with this set of packages
+
+  # PDF Generation
+  pdf: ^3.10.7
+  path_provider: ^2.1.2
+  open_file: ^3.3.2
+
+  # HTTP Requests (for ChatGPT API)
+  http: ^1.2.0
+
+  # For managing environment variables (like API keys) securely
+  flutter_dotenv: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  change_app_package_name: ^1.1.0
+
+flutter:
+  uses-material-design: true
+

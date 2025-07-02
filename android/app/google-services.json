@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "917792944863",
+    "project_id": "ebola-response-app-congo",
+    "storage_bucket": "ebola-response-app-congo.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917792944863:android:7ca9cc77c1261bcc386f6a",
+        "android_client_info": {
+          "package_name": "com.example.ebola_response_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917792944863-kfasf72kgihupb4o6oerj2ec7c7jaekv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1RmqKTPOBmas4u5Wx3djoFKM2eSXM90s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917792944863-kfasf72kgihupb4o6oerj2ec7c7jaekv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "917792944863-2mimg1ubl95jsg86n7ttt4v3892rijk1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.ebolaResponseApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
